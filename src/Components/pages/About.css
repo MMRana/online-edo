@@ -1,0 +1,40 @@
+.about{
+    color: #fff;
+}
+.about h1{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+button a:hover{
+    color: #fff;
+}
+.about-img:hover{
+    transition: all .3s ease-in-out;
+    filter: brightness(0.8);
+}
+.about-img{
+    animation: shaking 2s ease-in-out infinite alternate-reverse both;
+}
+/* Animations */
+@keyframes shaking {
+    0%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+@-webkit-keyframes shaking {
+    0%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}

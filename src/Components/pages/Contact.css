@@ -1,0 +1,76 @@
+.contact-section{}
+.contact-title{}
+.contact-title h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    transition: all .3s ease;
+}
+.contact-title h1:hover{
+    color: #ff0000;
+    transition: all .3s ease;
+}
+.contact-title h1::before{
+    content: '';
+    position: absolute;
+    width: 14%;
+    height: 2px;
+    top: 55px;
+    background-color: #ff0000;
+}
+.contact-info{
+    color: #fff;
+}
+.contact-info h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif;
+    transition: all .3s ease;
+}
+.contact-info h1:hover{
+    color: #ff0000;
+    transition: all .3s ease;
+}
+.contact-info h1::before{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    top: 45px;
+    background-color: #ff0000;
+}
+.contact-info p{
+    margin-top: 5px;
+    font-weight: 300;
+    font-family: 'Play', sans-serif;
+}
+.contact-info p span{
+    font-family: 'Kanit', sans-serif;
+    color: #ff0000;
+}
+.contact-form{
+    width: 100%;
+}
+.form-btn{
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 10px;
+    font-family: 'Play', sans-serif;
+    background-color: #ff0000;
+    transition: all .5s ease;
+}
+.form-btn:hover{
+    transition: all .5s ease;
+    background-color: #d61010;
+}
+

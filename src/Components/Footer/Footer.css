@@ -1,0 +1,22 @@
+.footer-aria{
+    background-color: #a7a7a25c;
+}
+.footer-aria img{
+    width: 150px;
+    height: 130px;
+}
+.footer-aria p{
+    color: #d6bdbd;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-aria p span{
+    font-weight: bold;
+    color: #ff0000;
+    transition: all .5s ease;
+}
+.footer-aria p span:hover{
+    transition: all .5s ease;
+    color: #d61010;
+    border-bottom:1px solid #d61010;
+}

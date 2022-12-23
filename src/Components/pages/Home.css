@@ -1,0 +1,43 @@
+.hero{
+    color: #fff;
+}
+.hero h1{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif;
+}
+.brand-name{
+    color: #ff0000;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+button a:hover{
+    color: #fff;
+}
+.hero-img:hover{
+    transition: all .3s ease-in-out;
+    filter: brightness(0.8);
+}
+.hero-img{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+/* Animations */
+@keyframes up-down {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@-webkit-keyframes up-down {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
